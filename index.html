@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: white;
+        }
+        canvas {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Visualizer</h1>
+    <audio controls id="audio-player">
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <canvas id="visualizer" width="800" height="400"></canvas>
+    <script>
+        // JavaScript for audio visualization will go here
+    </script>
+</body>
+</html>
